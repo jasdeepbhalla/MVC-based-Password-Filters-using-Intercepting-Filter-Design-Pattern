@@ -1,9 +1,9 @@
-#### MVC based Password Filters using Intercepting Filter Design Pattern
+### MVC based Password Filters using Intercepting Filter Design Pattern
 
 Used Intercepting filter design pattern to create password filters which takes as input a password and will display the password and a message if it is valid or invalid according to a set of rules based on Model View Controller Architecture using Java.
 
 
-###### Instructions
+#### Instructions
 
 * My MVC Application uses Swings to create GUI. To execute the application run the main class of this application called 'mainClass' located in package 'MVC_Classes'. 
 * MVC classes are in package 'MVC_Classes' and all intercepting design filter classes are in package called 'InterceptingFilter_Classes'.
