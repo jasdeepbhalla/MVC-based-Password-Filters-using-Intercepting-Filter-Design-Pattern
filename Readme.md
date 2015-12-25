@@ -4,11 +4,15 @@ Used Intercepting filter design pattern to create password filters which takes a
 
 The filters used are: 
 
-**(a) Offensive Filter:** It has a list of strings => "abc", "def", "ghi". So this list of strings are considered as the offensive words. If the input is offensive it will be filtered.
+**(a) Offensive Filter:** 
+It has a list of strings => "abc", "def", "ghi". So this list of strings are considered as the offensive words. If the input is offensive it will be filtered.
  
-**(b)	EasyPasswordFilter:** It has a list of strings => "Disney", "Mickey", "Donald". The application filters easy passwords based on this list.
+**(b)	EasyPasswordFilter:** 
+It has a list of strings => "Disney", "Mickey", "Donald". The application filters easy passwords based on this list.
  
-**(c) SaltingFilter:** Salting filter will add salt string which is "salt12345" at the end of the given password.
+**(c) SaltingFilter:** 
+Salting filter will add salt string which is "salt12345" at the end of the given password.
+
 
 - - - -
 
